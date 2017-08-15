@@ -17,4 +17,4 @@
     name: run_project
     image: valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.044
     command:
-      - python run_project.py
+      - python main.py
