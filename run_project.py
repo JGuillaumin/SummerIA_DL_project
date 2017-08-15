@@ -8,15 +8,20 @@ import time
 
 print("\n===============\n")
 os.system("nvidia-smi")
-time.sleep(3)
+time.sleep(1)
 print("\n===============\n")
 os.system("ls -l")
-time.sleep(3)
+time.sleep(1)
 print("\n===============\n")
 os.system("pwd")
-time.sleep(3)
+time.sleep(1)
 print("\n===============\n")
-
+os.system("ls -la /valohai/inputs/*")
+time.sleep(1)
+print("\n===============\n")
+os.system("ls -la /valohai/*")
+time.sleep(1)
+print("\n===============\n")
 
 if os.path.isfile("main.py"):
     os.system("python main.py")
@@ -26,4 +31,4 @@ else:
 if os.path.isfile("main2.py"):
     os.system("python main2.py")
 else:
-    print("main.py not found")
+    print("main2.py not found")
