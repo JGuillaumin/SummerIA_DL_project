@@ -1,5 +1,6 @@
 import subprocess
 import os
+import time
 
 #subprocess.call(["nvidia-smi"])
 #subprocess.call(["ls", "-l"])
@@ -7,10 +8,13 @@ import os
 
 print("\n===============\n")
 os.system("nvidia-smi")
+time.sleep(3)
 print("\n===============\n")
 os.system("ls -l")
+time.sleep(3)
 print("\n===============\n")
 os.system("pwd")
+time.sleep(3)
 print("\n===============\n")
 
 
