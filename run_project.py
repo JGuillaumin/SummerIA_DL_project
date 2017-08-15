@@ -1,9 +1,18 @@
 import subprocess
 import os
 
-subprocess.call(["nvidia-smi"])
-subprocess.call(["ls", "-l"])
-subprocess.call(["nvidia-smi"])
+#subprocess.call(["nvidia-smi"])
+#subprocess.call(["ls", "-l"])
+#subprocess.call(["nvidia-smi"])
+
+print("\n===============\n")
+os.system("nvidia-smi")
+print("\n===============\n")
+os.system("ls -l")
+print("\n===============\n")
+os.system("pwd")
+print("\n===============\n")
+
 
 if os.path.isfile("main.py"):
     os.system("main.py")
