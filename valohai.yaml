@@ -6,8 +6,8 @@
     command:
       - python run_project.py
     inputs :
-      - name: main.py
-        default : main2.py
+      - name: main_script
+        default : main.py
 
 
 - step:
