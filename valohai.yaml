@@ -15,6 +15,6 @@
 
 - step:
     name: run_project
-    image: valohai/keras:2.0.0-theano0.9.0rc4-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
+    image: valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.044
     command:
       - python run_project.py
