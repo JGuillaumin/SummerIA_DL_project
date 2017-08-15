@@ -19,5 +19,5 @@
     command:
       - python run_project.py
     inputs :
-      - name: main_script
+      - name: main.py
         default : main2.py
