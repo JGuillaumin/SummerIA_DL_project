@@ -25,7 +25,7 @@ if os.path.isfile("main.py"):
 else:
     print("main.py not found")
 
-if os.path.isfile("main2.py"):
+if os.path.isfile("../inputs/main2.py"):
     os.system("python ../inputs/main2.py")
 else:
-    print("main2.py not found")
+    print("../inputs/main2.py not found")
